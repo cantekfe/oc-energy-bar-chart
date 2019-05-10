@@ -25,13 +25,6 @@
     "s": "^0.1.1",
     "zone.js": "^0.8.29"
   },
-  "peerdependencies": {
-  
-    "@angular/material": "^7.3.7",
-   
-    "@swimlane/ngx-charts": "^11.0.1"
-   
-  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
