@@ -19,12 +19,7 @@
       "dom"
     ],
     "paths": {
-      "c-energy-chart": [
-        "dist/c-energy-chart"
-      ],
-      "c-energy-chart/*": [
-        "dist/c-energy-chart/*"
-      ],
+     
       "c-energy-bar-chart": [
         "dist/c-energy-bar-chart"
       ],

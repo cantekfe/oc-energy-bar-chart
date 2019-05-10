@@ -45,7 +45,8 @@ import { TURKISH_DATE_FORMATS, TurkishDateFormat } from './utils/turkish-date-fo
   providers: [
     { provide: DateAdapter, useClass: TurkishDateFormat },
     { provide: MAT_DATE_FORMATS, useValue: TURKISH_DATE_FORMATS },
-  ]
+  ],
+  exports: [BarchartComponent]
 })
 
-export class AppModule { }
+export class BarChartModule { }
