@@ -17,13 +17,8 @@ import {
 import { NgxChartsModule } from '@swimlane/ngx-charts';
 
 import { AppComponent } from './app.component';
-import { BarchartComponent } from './barchart/barchart.component';
 
-
-
-/******  Utils ******/
-import { TURKISH_DATE_FORMATS, TurkishDateFormat } from '../utils/turkish-date-format';
-
+import{BarChartModule} from '../../projects/c-energy-bar-chart/src/lib/barchart.module'
 
 @NgModule({
   imports: [
@@ -40,13 +35,11 @@ import { TURKISH_DATE_FORMATS, TurkishDateFormat } from '../utils/turkish-date-f
     MatButtonModule,
 
     MatDatepickerModule,
-    MatNativeDateModule
+    MatNativeDateModule,
+    BarChartModule
   ],
-  declarations: [AppComponent, BarchartComponent],
-  providers: [
-    { provide: DateAdapter, useClass: TurkishDateFormat },
-    { provide: MAT_DATE_FORMATS, useValue: TURKISH_DATE_FORMATS },
-  ],
+  declarations: [AppComponent],
+  
   bootstrap: [AppComponent]
 })
 
