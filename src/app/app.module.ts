@@ -9,8 +9,6 @@ import {
   MatFormFieldModule,
   MatDatepickerModule,
   MatNativeDateModule,
-  DateAdapter,
-  MAT_DATE_FORMATS,
   MatButtonModule
 } from '@angular/material';
 

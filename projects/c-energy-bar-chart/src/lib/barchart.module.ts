@@ -18,11 +18,7 @@ import { NgxChartsModule } from '@swimlane/ngx-charts';
 
 import { BarchartComponent } from './barchart/barchart.component';
 
-
-
-/******  Utils ******/
 import { TURKISH_DATE_FORMATS, TurkishDateFormat } from './utils/turkish-date-format';
-
 
 @NgModule({
   imports: [

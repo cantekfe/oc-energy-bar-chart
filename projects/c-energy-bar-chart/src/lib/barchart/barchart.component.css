@@ -1,22 +1,22 @@
-mat-card {
-    overflow: auto;
+.c-container {
+  overflow: auto;
 }
 
-mat-card-content div {
-    margin: 5px;
-    flex: 1
+.c-flex-content {
+  margin: 5px;
+  flex: 1;
 }
 
-.tarih {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
+.c-date {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
 }
 
-.tarih>* {
-    flex: 1 0 calc(33% - 5px);
+.c-date > * {
+  flex: 1 0 calc(33% - 5px);
 }
 
-.tarih>*:not(:last-child) {
-    margin-right: 5px;
+.c-date > *:not(:last-child) {
+  margin-right: 5px;
 }
