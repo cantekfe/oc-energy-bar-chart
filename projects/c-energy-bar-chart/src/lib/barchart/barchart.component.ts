@@ -8,7 +8,7 @@ import { ToolboxComponent } from "../toolbox-decorator";
   componentName: "BarchartComponent"
 })
 @Component({
-  selector: "app-barchart",
+  selector: "pack-energy-barchart-container",
   templateUrl: "./barchart.component.html",
   styleUrls: ["./barchart.component.css"]
 })
